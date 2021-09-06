@@ -19,7 +19,7 @@ I use them periodically thanks to crontab, and in the following example every mi
 
 - ``checkGPUPassthrough.sh`` : Check if GPU is well available in both hypervisor and container using nvidia drivers.
 - ``checkPortOpen.sh`` : Check if a port at an IP is open and available through the network.
-- ``checkQBInterface.sh`` : In Qbittorrent container, check is VPN link is not down or broke, and relaunch new connection.
+- ``checkQBInterface.sh`` : In Qbittorrent container, check is VPN link is not down or broken, and relaunch a new connection.
 - ``checkRaidStatus.sh`` : Check RAID disk drive status
 - ``checkWebServer.sh`` : Check multiple web services availability.
 - ``networkGeneralFailureHypervisor.sh`` : Check if hypervisor is every time connected to internet, and after 50 secs without, reboot hypervisor.
